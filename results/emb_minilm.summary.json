@@ -1,0 +1,25 @@
+{
+  "run_name": "emb_minilm",
+  "config": {
+    "chunk_size": 512,
+    "chunk_overlap": 64,
+    "preserve_structure": true,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "top_k": 5,
+    "generation_backend": "transformers",
+    "generation_model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "max_new_tokens": 300,
+    "temperature": 0.0,
+    "collection_prefix": "financebench",
+    "n_eval_questions": 150,
+    "seed": 42
+  },
+  "n_questions": 50,
+  "doc_hit@k": 0.34,
+  "evidence_recall@k": 0.44,
+  "MRR": 0.20866666666666667,
+  "numeric_match": 0.06,
+  "token_f1": 0.09858152218874915,
+  "runtime_s": null,
+  "note": "identical config to baseline (default Config()); first 50 baseline.jsonl records reused rather than re-run"
+}

@@ -1,0 +1,24 @@
+{
+  "run_name": "struct_on",
+  "config": {
+    "chunk_size": 384,
+    "chunk_overlap": 48,
+    "preserve_structure": true,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "top_k": 5,
+    "generation_backend": "transformers",
+    "generation_model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "max_new_tokens": 300,
+    "temperature": 0.0,
+    "collection_prefix": "financebench",
+    "n_eval_questions": 150,
+    "seed": 42
+  },
+  "n_questions": 50,
+  "doc_hit@k": 0.2,
+  "evidence_recall@k": 0.32,
+  "MRR": 0.11366666666666667,
+  "numeric_match": 0.06,
+  "token_f1": 0.08303340144187192,
+  "runtime_s": 3995.1
+}

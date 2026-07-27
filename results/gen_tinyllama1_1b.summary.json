@@ -1,0 +1,17 @@
+{
+  "run_name": "gen_tinyllama1_1b",
+  "config": {
+    "chunk_size": 512,
+    "chunk_overlap": 64,
+    "preserve_structure": true,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "top_k": 5,
+    "generation_model": "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+  },
+  "n_questions": 16,
+  "doc_hit@k": 0.125,
+  "evidence_recall@k": 0.375,
+  "MRR": 0.075,
+  "numeric_match": 0.0,
+  "token_f1": 0.011041660361169279
+}
