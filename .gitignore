@@ -1,0 +1,19 @@
+# Virtual environment
+.venv/
+
+# Vector store (regenerable via src/ingest.py) — includes a multi-GB sqlite file
+chroma_store/
+
+# Source PDF corpus (regenerable via src/download_pdfs.py, ~530 MB)
+data/raw_pdfs/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Claude Code session state (not part of the project)
+.claude/

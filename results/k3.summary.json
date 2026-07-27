@@ -1,0 +1,24 @@
+{
+  "run_name": "k3",
+  "config": {
+    "chunk_size": 512,
+    "chunk_overlap": 64,
+    "preserve_structure": true,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "top_k": 3,
+    "generation_backend": "transformers",
+    "generation_model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "max_new_tokens": 300,
+    "temperature": 0.0,
+    "collection_prefix": "financebench",
+    "n_eval_questions": 150,
+    "seed": 42
+  },
+  "n_questions": 50,
+  "doc_hit@k": 0.24,
+  "evidence_recall@k": 0.32,
+  "MRR": 0.18666666666666668,
+  "numeric_match": 0.14,
+  "token_f1": 0.10293110521235019,
+  "runtime_s": 3641.0
+}
