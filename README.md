@@ -6,7 +6,7 @@ filings and earnings reports) from the
 [FinanceBench](https://github.com/patronus-ai/financebench) dataset, and a
 full evaluation + experimentation pipeline.
 
-#**Team:** Prince Sharma, Syed Amaan, Harshitha Prasanna Karle
+##**Team: Prince Sharma, Syed Amaan, Harshitha Prasanna Karle**
 
 **Constraint compliance:** only free, locally executable models are used —
 Sentence-Transformers embeddings and a local HuggingFace Transformers model
